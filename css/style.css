@@ -1,0 +1,38 @@
+.titulos {
+    text-align: center;
+}
+
+body {
+    heigh: 665px;
+    background-image: url("../img/fondo.jpg");
+    background-size: 10rem;
+}
+
+.carouselExampleControlsNoTouching {
+    display: block;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+thead {
+    background-color: rgb(251, 224, 141);
+}
+
+tbody {
+    background-color: rgb(255,
+            251,
+            211);
+}
+
+footer {
+    background-color: rgb(255, 251, 211);
+}
