@@ -1,3 +1,4 @@
+<!-- Antes que nada quiero a agrader a todos los tutores, compañeros de curso y demas por dejame formar parte de este excelente emprendimiento de Animate a Programar. Aprendi mchas cosas en estos dos mese, las cuales me hicieron conocer un monton de herramientas que de a poco las voy a ir aplicando. Se que este sitio web no esta alcance de las espectativas requeridas, pero volvere a inscribirme, asi podre lorar un siio de mejor calidaad. Nuevamnete mil  gracias y abrazos para todos.-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,6 +43,7 @@
                             <a class="nav-link active" aria-current="page" href="./paginas/contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
+                            <!-- link a la radio online alternativo por si no funciona el de la pagia principal -->
                             <a class="nav-link"
                                 href="javascript:window.open('http://stream.zeno.fm/0p0km3zgcc9uv',' ','width=350,height=200,left=50,top=50,toolbar=yes');void 0">En
                                 Vivo!</a>
@@ -53,43 +55,51 @@
     </header>
     <main>
         <div>
+            <!-- link princial para escuchar la radio on-line -->
             <iframe src="https://zeno.fm/player/raicesonline" width="1075" height="400" frameborder="0"
                 scrolling="no"></iframe>
         </div>
-        <h2 class="titulos">Video.</h2>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/caN3RiFiORk"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        <h2 class="titulos">Proximos Eventos</h2>
-        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/ca1.jpg" class="d-block w-50" alt="uno">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/ca2.jpg" class="d-block w-50" alt="dos">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/ca3.jpg" class="d-block w-50" alt="trs">
+        <h2 class="titulos">Videos - Eventos</h2>
+        <div class="conteiner">
+            <div class="img-producto1"><iframe width="560" height="249" src="https://www.youtube.com/embed/M_troiIwjRk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="249" src="https://www.youtube-nocookie.com/embed/caN3RiFiORk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="img-producto2">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/ca1.jpg" class="d-block w-300" alt="uno">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/ca2.jpg" class="d-block w-300" alt="dos">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/ca3.jpg" class="d-block w-300" alt="trs">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-            </button>
         </div>
-
     </main>
-    <div class="b-example-divider"></div>
     <Aside>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <h2 class="titulos">Mas Raices</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-2">
             <div class="col">
                 <div class="card h-100">
                     <img src="./img/lo0.jpg" class="card-img-top" alt="lo1">
@@ -100,7 +110,8 @@
                             Nicolas de los Arroyos, Pcia. de Buenos Aires.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Musica Folclorica y Latinoamericana.</small>
+                        <small class="text-muted"><a href="./download/audio2.mp3" download target="_blank">Bajar
+                                Demo</a></small>
                     </div>
                 </div>
             </div>
@@ -114,7 +125,8 @@
                             tiempos.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Cumbia en todos sus estilos.</small>
+                        <small class="text-muted"><a href="./download/audio3.mp3" download target="_blank">Bajar
+                                Demo</a></small>
                     </div>
                 </div>
             </div>
@@ -129,15 +141,14 @@
                         </p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Musica Litoraleña.</small>
+                        <small class="text-muted"><a href="./download/audio1.mp3" download target="_blank">Bajar
+                                Demo</a></small>
                     </div>
                 </div>
             </div>
         </div>image.png
     </Aside>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
-    <link href="../Radio/css/bootstrap.min.css" rel="stylesheet">
+    <!-- css enbevido -->
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -194,7 +205,7 @@
             color: black;
         }
     </style>
-
+    <!-- codigos iconos boostrap -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 
         <symbol id="facebook" viewBox="0 0 16 16">
@@ -211,8 +222,8 @@
         </symbol>
     </svg>
     <div class="b-example-divider"></div>
-    <!-- falta acomodar el footer-->
-    <div class="container">
+    <!--footer-->
+    <div class="container2">
         <footer class="py-5">
             <div class="row">
                 <div class="col-6 col-md-2 mb-3">
